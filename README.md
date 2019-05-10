@@ -29,7 +29,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-map creates a new array, while forEach is used to perform a function on the original array.
+forEach does not return an object within its' scope, while map does return an object. map returns a new array, while callback functions must be used to retreive the results of a foreach function.
 2. What is the difference between a function and a method?
 
 3. What is closure?
