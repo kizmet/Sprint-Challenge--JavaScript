@@ -52,6 +52,7 @@ function roar() {
 console.log(roar(tyrannosaurus));
 
 
+
 // ==== Arrays ====
 
 // Given an array of college graduates.  Complete the following requests WITHOUT using any array methods like .forEach(), .map(), .reduce(), .filter()
