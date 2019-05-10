@@ -29,15 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+forEach does not return an object within its' scope, while map does return an object. map returns a new array, while callback functions must be used to retreive the results of a foreach function.
 2. What is the difference between a function and a method?
-
+a function is global in scope and executed when compiled. a method can be local in scope and they execute when called 
 3. What is closure?
-
+determines the scope of objects and the level of availability
 4. Describe the four rules of the 'this' keyword.
+Window Binding - objects are available at the highest level, Window/Global, and can be accessed by lower levels
+Implicit Binding - objects bind to their own properties and methods
+New Binding - object instances bind to properties/medthods of their prototype objects
+Explicit Binding - object instances bind to their inherted object instance
 
 5. Why do we need super() in an extended class?
-
+to intitate the base class and its' properties
 ## Project Set up
 
 Follow these steps to set up and work on your project:
